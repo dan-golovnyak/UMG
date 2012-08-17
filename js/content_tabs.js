@@ -1,6 +1,23 @@
 (function($) {
 
     // Start "Featured" menu item
+    new Echo.Stream({
+        "target": document.getElementById("echo-stream"),
+        "appkey": "prod.umg",
+        "query": "((childrenof:" + baseURL + "/id_Featured -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
+        "plugins": [{
+            "name": "Reply",
+            "actionString": "Reply...",
+            "nestedPlugins": [{
+            "name": "FormAuth"
+            }]
+        }]
+        });
+        $('div.s_paging a').removeClass('selected');
+        $(this).addClass('selected');
+    });
+
+
     $('div.s_paging a.featured').click(function() {
     new Echo.Stream({
         "target": document.getElementById("echo-stream"),
@@ -8,7 +25,7 @@
         "query": "((childrenof:" + baseURL + "/id_Featured -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
         "plugins": [{
             "name": "Reply",
-            "actionString": "Write reply here...",
+            "actionString": "Reply...",
             "nestedPlugins": [{
             "name": "FormAuth"
             }]
@@ -26,7 +43,7 @@
         "query": "((childrenof:" + baseURL + "/id_Twitter -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
         "plugins": [{
             "name": "Reply",
-            "actionString": "Write reply here...",
+            "actionString": "Reply...",
             "nestedPlugins": [{
             "name": "FormAuth"
             }]
@@ -45,7 +62,7 @@
         "query": "((childrenof:" + baseURL + "/id_Facebook -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
         "plugins": [{
             "name": "Reply",
-            "actionString": "Write reply here...",
+            "actionString": "Reply...",
             "nestedPlugins": [{
             "name": "FormAuth"
             }]
@@ -63,7 +80,7 @@
         "query": "((childrenof:" + baseURL + "/id_Youtube -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
         "plugins": [{
             "name": "Reply",
-            "actionString": "Write reply here...",
+            "actionString": "Reply...",
             "nestedPlugins": [{
             "name": "FormAuth"
             }]
@@ -81,7 +98,7 @@
         "query": "((childrenof:" + baseURL + "/id_News -state:ModeratorDeleted,SystemFlagged,CommunityFlagged,ModeratorFlagged -user.state:ModeratorBanned)) safeHTML:false children:1 -state:ModeratorDeleted,SystemFlagged,ModeratorFlagged -user.state:ModeratorBanned childrenSortOrder:reverseChronological childrenItemsPerPage:2 itemsPerPage:8",
         "plugins": [{
             "name": "Reply",
-            "actionString": "Write reply here...",
+            "actionString": "Reply...",
             "nestedPlugins": [{
             "name": "FormAuth"
             }]
