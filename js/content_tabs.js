@@ -13,9 +13,6 @@
             }]
         }]
         });
-        $('div.s_paging a').removeClass('selected');
-        $(this).addClass('selected');
-    });
 
 
     $('div.s_paging a.featured').click(function() {
