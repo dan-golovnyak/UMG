@@ -548,12 +548,13 @@ img {
     border-bottom: 5px solid #333;
     color: white;
     text-decoration: none;
-    top: 0;
+    top: -60px;
     left: -300%;
     width: 700%;
     z-index: 998;
     font-family: Helvetica, Arial, Sans-Serif;
     letter-spacing: 0px !important;
+    display: none;
 }
 #ucid_bar .capture_iframe {
     background-color: #121212;
