@@ -221,7 +221,8 @@ img {
     min-height: 1% !important;
 }
 
-#page-title {
+#page-title,
+.pager li.pager-current {
     display: none;
 }
 
