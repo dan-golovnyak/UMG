@@ -71,6 +71,6 @@ function includeCSS(local, imgUrl, git) {
 */
 includeCSS(
   "http://localhost/UMG/umg-styles.css",
-  "http://localhost:8082/Warner-Common-Files/1x1.gif",
-  "http://acquia.github.com/Warner-Common-Files/styles_v3.css"
+  "http://localhost/UMG/images/1x1.gif",
+  "http://mkorostoff.github.com/UMG/umg-styles.css"
 );
