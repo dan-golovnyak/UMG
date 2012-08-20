@@ -222,8 +222,42 @@ img {
 }
 
 #page-title,
-.pager li.pager-current {
+.pager li.pager-current,
+#breadcrumb {
     display: none;
+}
+
+/* News Page*/
+
+div.fb_edge_widget_with_comment {
+    width: 86px;
+    overflow: hidden;
+    float: left;
+}
+
+iframe.twitter-share-button {
+    z-index: 1;
+}
+
+span.fb_edge_comment_widget.fb_iframe_widget {
+    display: none !important;
+}
+
+/* Navigation */
+
+ul.menu {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.menu li {
+    list-style-type: none;
+    font-weight:bold;
+    text-decoration:none;
+    float:left;
+    display:inline;
+    margin: 0 10px 0 0;
+    padding-left: 0;
+
 }
 
 /* Social Icon */
