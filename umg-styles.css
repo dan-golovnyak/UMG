@@ -1,3 +1,4 @@
+
 /************************************************************
  *                        Global styles 
  /***********************************************************/
@@ -191,24 +192,9 @@ font-family:league-gothic,sans-serif;
 .tk-blackout-midnight{
 font-family:blackout-midnight,serif;
 }
-#s_river embed,
-#s_river object,
-#s_river iframe,
-#s_river img {
-    max-width: 440px !important;
-}
-
-/************************************************************
- *                   Starter Site Default
- ************************************************************/
 
 .page-width {
     background-image:url('images/grid.png');
-    width: 950px;
-}
-
-#sidebar-a {
-    width: 310px;
 }
 
 img {
@@ -227,7 +213,28 @@ img {
     display: none;
 }
 
-/* News Page*/
+@media screen and (min-width:961px) {
+
+#s_river embed,
+#s_river object,
+#s_river iframe,
+#s_river img {
+    max-width: 440px !important;
+}
+
+/************************************************************
+ *                   Starter Site Default
+ ************************************************************/
+
+.page-width {
+    width: 950px;
+}
+
+#sidebar-a {
+    width: 310px;
+}
+
+/* News listing page*/
 
 div.fb_edge_widget_with_comment {
     width: 86px;
@@ -242,6 +249,10 @@ iframe.twitter-share-button {
 span.fb_edge_comment_widget.fb_iframe_widget {
     display: none !important;
 }
+
+/* News detail page */
+
+
 
 /* Navigation */
 
@@ -726,4 +737,22 @@ ul.menu {
 #rewardsPoints,
 #rewardsPointsIcon {
     float: left;
+}
+
+}
+
+@media screen and (max-width:960px) {
+
+    .page-width {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+
+    #sidebar-a {
+        display: none;
+    }
+
 }
