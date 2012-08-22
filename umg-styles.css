@@ -34,8 +34,8 @@ h2,
 }
 
 h3,
-.page-news .views-field-title a,
-body.page-node #page-title {
+.page-news #main .views-field-title a,
+body.not-front.page-node #page-title {
     font-size: 1.5em;
     line-height: 1.55;
     margin-bottom: 1em;
@@ -213,7 +213,10 @@ img {
 #page-title,
 .pager li.pager-current,
 #breadcrumb,
-.node-type-music .node .meta {
+.node-type-music .node .meta,
+.node-type-video .node .meta,
+body.page-video span.gardens-features-video-indicator,
+body.node-type-video span.gardens-features-video-indicator {
     display: none;
 }
 
@@ -238,9 +241,24 @@ img {
     width: 310px;
 }
 
+/* Pagers */
 div.item-list ul.pager {
     text-align: left;
     padding: 0;
+}
+
+/* Views */
+.views-label {
+    font-weight: bold;
+}
+
+.view-footer {
+    margin-top: 20px;
+}
+
+/* Menus */
+ul.menu li.leaf {
+    padding: 0.2em 0.5em 0 0;
 }
 
 /* News listing page*/
@@ -259,8 +277,9 @@ span.fb_edge_comment_widget.fb_iframe_widget {
     display: none !important;
 }
 
-/* News detail page */
-
+.views-label-created {
+    font-weight: normal;
+}
 
 
 /* Navigation */
@@ -288,6 +307,62 @@ ul.menu {
 .view-music.view-display-id-block_2 h3 {
     width: 100%
 }
+
+.views-field-field-album-cover,
+.field-name-field-album-cover,
+.view-id-video.view-display-id-block_2 .views-field-field-video {
+    float: left;
+    padding-right: 10px;
+}
+
+.views-field-field-amazon-link a,
+.views-field-field-itunes-link a,
+.field-name-field-amazon-link a,
+.field-name-field-itunes-link a {
+    color: #111;
+    background-color: #E1E1E1;
+    background-image: url('images/btn-gradient.gif');
+    background-position: 0 0;
+    border: 2px solid #555;
+    -moz-border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    border-radius: 4px 4px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin: 0 5px 10px 0;
+    padding: 3px 6px;
+}
+
+.views-field-field-amazon-link a:hover,
+.views-field-field-itunes-link a:hover,
+.field-name-field-amazon-link a:hover,
+.field-name-field-itunes-link a:hover {
+    background-position: 0 -30px;
+    color: #09F;
+}
+
+.field-name-field-amazon-link,
+.field-name-field-itunes-link,
+.field-name-field-release-date {
+    clear: both;
+}
+
+.field-name-field-amazon-link + .field-name-field-itunes-link,
+.field.field-name-field-release-date:after,
+.field.field-name-field-label:after {
+    clear: none;
+}
+
+.node .field.field-name-field-release-date,
+.node .field.field-name-field-album-type,
+.node .field.field-name-field-label {
+    float: left;
+    clear: right;
+    min-width: 200px;
+    margin-top: 0;
+}
+
 
 /**************************************************************
  *                     Single Sign-on Bar
