@@ -261,8 +261,12 @@ ul.menu li.leaf {
     padding: 0.2em 0.5em 0 0;
 }
 
-/* News listing page*/
+#block-menu-menu-footer-secondary-menu {
+    font-size: 9px;
+    margin-top: 0;
+}
 
+/* News */
 div.fb_edge_widget_with_comment {
     width: 86px;
     overflow: hidden;
@@ -283,7 +287,6 @@ span.fb_edge_comment_widget.fb_iframe_widget {
 
 
 /* Navigation */
-
 ul.menu {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -362,6 +365,77 @@ ul.menu {
     min-width: 200px;
     margin-top: 0;
 }
+
+/**************************************************************
+ *                        Social Icons
+ **************************************************************/
+ .icon_holder {
+     width:35px;
+     height:35px;
+     float:left;
+     margin:0 5px 5px 0;
+     display:block;
+ }
+ .icon_holder span {
+     position:absolute;
+     display:none;
+}
+
+ .icon_holder.amazon, .icon_holder.Amazon, .icon_holder.AMAZON, .icon_holder.artistdirect, .icon_holder.Artistdirect, .icon_holder.ArtistDirect, .icon_holder.bebe, .icon_holder.Bebe, .icon_holder.blinklist, .icon_holder.Blinklist, .icon_holder.BlinkList, .icon_holder.blogger, .icon_holder.Blogger, .icon_holder.blogmarks, .icon_holder.Blogmarks, .icon_holder.BlogMarks, .icon_holder.buzznet, .icon_holder.Buzznet, .icon_holder.BuzzNet, .icon_holder.dailymotion, .icon_holder.Dailymotion, .icon_holder.DailyMotion, .icon_holder.delicious, .icon_holder.Delicious, .icon_holder.digg, .icon_holder.Digg, .icon_holder.ebay, .icon_holder.Ebay, .icon_holder.facebook, .icon_holder.Facebook, .icon_holder.FaceBook, .icon_holder.flickr, .icon_holder.Flickr, .icon_holder.float, .icon_holder.Float, .icon_holder.geeko, .icon_holder.Geeko, .icon_holder.Glogster, .icon_holder.glogster, .icon_holder.google, .icon_holder.Google, .icon_holder.googleplus, .icon_holder.Googleplus, .icon_holder.google-plus , .icon_holder.ilike, .icon_holder.Ilike, .icon_holder.ILIKE, .icon_holder.ILike, .icon_holder.iLike, .icon_holder.imeem, .icon_holder.Imeem, .icon_holder.iTunes, .icon_holder.itunes, .icon_holder.ITUNES, .icon_holder.lastfm, .icon_holder.Lastfm, .icon_holder.LastFm, .icon_holder.LASTFM, .icon_holder.LastFM, .icon_holder.lastFM, .icon_holder.linkedin, .icon_holder.Linkedin, .icon_holder.LinkedIn, .icon_holder.magnolia, .icon_holder.Magnolia, .icon_holder.misterwong, .icon_holder.Misterwong, .icon_holder.MisterWong, .icon_holder.msn, .icon_holder.Msn, .icon_holder.myspace, .icon_holder.Myspace, .icon_holder.MySpace, .icon_holder.MYSPACE, .icon_holder.netvibes, .icon_holder.Netvibes, .icon_holder.NetVibes, .icon_holder.newsvine, .icon_holder.Newsvine, .icon_holder.NewsVine, .icon_holder.picasa, .icon_holder.Picasa, .icon_holder.ping, .icon_holder.Ping, .icon_holder.PING, .icon_holder.pownce, .icon_holder.Pownce, .icon_holder.reddit, .icon_holder.Reddit, .icon_holder.rss, .icon_holder.Rss, .icon_holder.RSS, .icon_holder.simpy, .icon_holder.Simpy, .icon_holder.soundcloud, .icon_holder.Soundcloud, .icon_holder.spotify, .icon_holder.Spotify, .icon_holder.stumbleupon, .icon_holder.Stumbleupon, .icon_holder.StumbleUpon, .icon_holder.technocrunch, .icon_holder.Technocrunch, .icon_holder.TechnoCrunch, .icon_holder.technorati, .icon_holder.Technorati, .icon_holder.tomateo, .icon_holder.Tomateo, .icon_holder.tumblr, .icon_holder.Tumblr, .icon_holder.twitter, .icon_holder.Twitter, .icon_holder.vevo, .icon_holder.Vevo, .icon_holder.VEVO, .icon_holder.viadeo, .icon_holder.Viadeo, .icon_holder.vimeo, .icon_holder.Vimeo, .icon_holder.wikio, .icon_holder.Wikio, .icon_holder.wikipedia, .icon_holder.Wikipedia, .icon_holder.wordpress, .icon_holder.Wordpress, .icon_holder.yahoo, .icon_holder.Yahoo, .icon_holder.YAHOO, .icon_holder.youtube, .icon_holder.Youtube, .icon_holder.YouTube, .icon_holder.YOUTUBE, .icon_holder.ziki, .icon_holder.Ziki {background: url(images/social_icons/sprite_social_icons.png);}
+
+.icon_holder.amazon, .icon_holder.Amazon, .icon_holder.AMAZON {background-position:0 0;}
+.icon_holder.artistdirect, .icon_holder.Artistdirect, .icon_holder.ArtistDirect {background-position:-35px 0;}
+.icon_holder.bebe, .icon_holder.Bebe {background-position:-70px 0;}
+.icon_holder.blinklist, .icon_holder.Blinklist, .icon_holder.BlinkList {background-position:-105px 0;}
+.icon_holder.blogger, .icon_holder.Blogger {background-position:-140px 0;}
+.icon_holder.blogmarks, .icon_holder.Blogmarks, .icon_holder.BlogMarks {background-position:-175px 0;}
+.icon_holder.buzznet, .icon_holder.Buzznet, .icon_holder.BuzzNet {background-position:-210px 0;}
+.icon_holder.dailymotion, .icon_holder.Dailymotion, .icon_holder.DailyMotion {background-position:-245px 0;}
+.icon_holder.delicious, .icon_holder.Delicious {background-position:-280px 0;}
+.icon_holder.digg, .icon_holder.Digg {background-position:-315px 0;}
+.icon_holder.ebay, .icon_holder.Ebay {background-position:-385px 0;}
+.icon_holder.facebook, .icon_holder.Facebook, .icon_holder.FaceBook {background-position:-420px 0;}
+.icon_holder.flickr, .icon_holder.Flickr {background-position:-455px 0;}
+.icon_holder.float, .icon_holder.Float {background-position:-490px 0;}
+.icon_holder.geeko, .icon_holder.Geeko {background-position:-525px 0;}
+.icon_holder.Glogster, .icon_holder.glogster {background-position: -215px -70px;}
+.icon_holder.google, .icon_holder.Google {background-position:-560px 0;}
+.icon_holder.googleplus, .icon_holder.Googleplus, .icon_holder.google-plus  {background-position:-420px -73px;}
+.icon_holder.ilike, .icon_holder.Ilike, .icon_holder.ILIKE, .icon_holder.ILike, .icon_holder.iLike {background-position:-595px 0;}
+.icon_holder.imeem, .icon_holder.Imeem {background-position:-630px 0;}
+.icon_holder.iTunes, .icon_holder.itunes, .icon_holder.ITUNES {background-position:-665px 0;}
+.icon_holder.lastfm, .icon_holder.Lastfm, .icon_holder.LastFm, .icon_holder.LASTFM, .icon_holder.LastFM, .icon_holder.lastFM {background-position:0px -35px;}
+.icon_holder.linkedin, .icon_holder.Linkedin, .icon_holder.LinkedIn {background-position:-35px -35px;}
+.icon_holder.magnolia, .icon_holder.Magnolia {background-position:-70px -35px;}
+.icon_holder.misterwong, .icon_holder.Misterwong, .icon_holder.MisterWong {background-position:-105px -35px;}
+.icon_holder.msn, .icon_holder.Msn {background-position:-140px -35px;}
+.icon_holder.myspace, .icon_holder.Myspace, .icon_holder.MySpace, .icon_holder.MYSPACE {background-position:-175px -35px;}
+.icon_holder.netvibes, .icon_holder.Netvibes, .icon_holder.NetVibes {background-position:-210px -35px;}
+.icon_holder.newsvine, .icon_holder.Newsvine, .icon_holder.NewsVine {background-position:-245px -35px;}
+.icon_holder.picasa, .icon_holder.Picasa {background-position:-280px -35px;}
+.icon_holder.ping, .icon_holder.Ping, .icon_holder.PING {background-position:-212px -73px;}
+.icon_holder.pownce, .icon_holder.Pownce {background-position:-315px -35px;}
+.icon_holder.reddit, .icon_holder.Reddit {background-position:-350px -35px;}
+.icon_holder.rss, .icon_holder.Rss, .icon_holder.RSS {background-position:-385px -35px;}
+.icon_holder.simpy, .icon_holder.Simpy {background-position:-420px -35px;}
+.icon_holder.soundcloud, .icon_holder.Soundcloud {background-position:-316px -73px;}
+.icon_holder.spotify, .icon_holder.Spotify {background-position:-385px -73px;}
+.icon_holder.stumbleupon, .icon_holder.Stumbleupon, .icon_holder.StumbleUpon {background-position:-455px -35px;}
+.icon_holder.technocrunch, .icon_holder.Technocrunch, .icon_holder.TechnoCrunch {background-position:-490px -35px;}
+.icon_holder.technorati, .icon_holder.Technorati {background-position:-525px -35px;}
+.icon_holder.tomateo, .icon_holder.Tomateo {background-position:-560px -35px;}
+.icon_holder.tumblr, .icon_holder.Tumblr {background-position:-245px -73px;}
+.icon_holder.twitter, .icon_holder.Twitter {background-position:-595px -35px;}
+.icon_holder.vevo, .icon_holder.Vevo, .icon_holder.VEVO {background-position:-177px -70px;}
+.icon_holder.viadeo, .icon_holder.Viadeo {background-position:-630px -35px;}
+.icon_holder.vimeo, .icon_holder.Vimeo {background-position:-281px -73px;}
+.icon_holder.wikio, .icon_holder.Wikio {background-position:-665px -35px;}
+.icon_holder.wikipedia, .icon_holder.Wikipedia {background-position:0px -70px;}
+.icon_holder.wordpress, .icon_holder.Wordpress {background-position:-351px -73px;}
+.icon_holder.yahoo, .icon_holder.Yahoo, .icon_holder.YAHOO {background-position:-35px -70px;}
+.icon_holder.youtube, .icon_holder.Youtube, .icon_holder.YouTube, .icon_holder.YOUTUBE {background-position:-105px -70px;}
+.icon_holder.ziki, .icon_holder.Ziki {background-position:-140px -70px;}
+
 
 
 /**************************************************************
