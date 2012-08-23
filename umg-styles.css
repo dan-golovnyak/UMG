@@ -196,10 +196,11 @@ font-family:league-gothic,sans-serif;
 font-family:blackout-midnight,serif;
 }
 
+/*
 .page-width {
 	background-image:url('images/grid.png');
 }
-
+*/
 img {
 	max-width: 100%;
     height: auto;
@@ -594,6 +595,68 @@ ul.menu {
 #rewardsPoints,
 #rewardsPointsIcon {
 	float: left;
+}
+
+@charset "UTF-8";
+/* CSS Document */
+
+.sso_membership {
+    background-color: #333;
+    right: 0;
+    top: 0;
+    color: #fff;
+    font-style: italic;
+    font-size: 11px;
+    padding: 5px 10px;
+    overflow: hidden !important;
+ /* needed for IE7 horiz scrolling */
+    -moz-box-shadow: 1px 2px 2px #000000;
+ /* Firefox F3.5+ */
+    -webkit-box-shadow: 1px 2px 2px #000000;
+ /* Safari3.0+, Chrome */
+    box-shadow: 1px 2px 2px #000000;
+ /* Opera 10.5, IE 9.0 */
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=0px, Color='#000000');
+ /* IE6, IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=0px, Color='#000000')";
+ /* IE8 */
+}
+
+.sso_text {
+    padding-top: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#sso_loggedout {
+    padding: 5px 10px;
+}
+
+.sso_membership strong {
+    color: #fff;
+}
+
+.sso_membership a:link, .sso_membershop a:visited {
+    text-decoration: none;
+    color: #6b7078;
+    font-size: 11px;
+}
+
+.sso_membership span {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden !important;
+}
+
+#ucid_bar {
+    border-bottom-color: #ff00a8;
+}
+
+#ucid_bar .lowerTab {
+    background: #ff00a8;
+    color: #111;
 }
 
 /************************************************************
@@ -1588,7 +1651,7 @@ h1#logo a {
     text-decoration: none;
 }
 
-#bd {
+#content {
     background: url(images/bg-trans-white.png);
 }
 /* F O O T E R */
@@ -1704,7 +1767,7 @@ p.s_more a:link, p.s_more a:visited {
 p.s_more a:hover {
 }
 /* = = = N A V I G A T I O N = = = */
-#top-nav {
+#navigation {
     width: auto;
     float: left;
     position: absolute;
@@ -1714,14 +1777,14 @@ p.s_more a:hover {
     z-index: 1;
 }
 
-* html #top-nav, *+html #top-nav {
+* html #navigation, *+html #navigation {
     width: 960px;
 }
 
-#top-nav ul {
+#navigation ul {
 }
 
-#top-nav li {
+#navigation li {
     margin: 0 0 0 0px;
     font-style: normal;
     text-transform: uppercase;
@@ -1732,7 +1795,7 @@ p.s_more a:hover {
     padding: 0;
 }
 
-#top-nav ul.navigation li a {
+#navigation ul.menu li a {
     max-width: 60px;
     line-height: 1;
     text-align: left;
@@ -1750,15 +1813,15 @@ p.s_more a:hover {
     font-size: 27px;
 }
 
-#top-nav ul.navigation > li.selected a, #top-nav ul.navigation > li a:hover {
+#navigation ul.menu > li.selected a, #navigation ul.menu > li a:hover {
     color: #ff00a8;
 }
 
-#top-nav ul.navigation > li.selected {
+#navigation ul.menu > li.selected {
     border-color: #f09;
 }
 
-.navigation li {
+.menu li {
     font-weight: normal;
     line-height: 16px;
     list-style-type: none;
@@ -1769,11 +1832,11 @@ p.s_more a:hover {
     position: relative;
 }
 
-.navigation li a {
+.menu li a {
     color: #656565;
 }
 
-#ft .navigation li a {
+#ft .menu li a {
     color: #aaa;
     font-size: 11px;
 }
@@ -1786,7 +1849,7 @@ li.selected a {
     color: #fff;
 }
 
-#ft .navigation a:hover {
+#ft .menu a:hover {
     #fff;
 }
 
