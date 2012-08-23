@@ -2,33 +2,21 @@
 (function($) {
 	$('li.pager-next a').html('Next »');
 	$('li.pager-previous a').html('« Prev');
-}(jQuery));
 
-// //Facbook inclusion script
-// (function(d, s, id) {
-//   var js, fjs = d.getElementsByTagName(s)[0];
-//   if (d.getElementById(id)) return;
-//   js = d.createElement(s); js.id = id;
-//   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-//   fjs.parentNode.insertBefore(js, fjs);
-// }(document, 'script', 'facebook-jssdk'));
+//Add a second pager at the top of the page
+var viewType = null;
+if ($('body.page-music').size() > 0) {
+	var viewType = 'music';
+}
+else if ($('body.page-news').size() > 0) {
+	var viewType = 'news';
+}
 
-// //Twitter inclusion script
-// (function(d, s, id) {
-//     var js, fjs = d.getElementsByTagName(s)[0];
-//     if (!d.getElementById(id)) {
-//         js = d.createElement(s);
-//         js.id = id;
-//         js.src = "https://platform.twitter.com/widgets.js";
-//         fjs.parentNode.insertBefore(js, fjs);
-//     }
-// }(document, "script", "twitter-wjs"));
+if (viewType != null) {
+	$('div.view-' + viewType + '.view-display-id-page div.item-list')
+	.clone()
+	.prependTo('div.view-' + viewType + '.view-display-id-page');
+}
 
-// //Google+ inclusion script
-// (function() {
-// 	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-// 	po.src = 'https://apis.google.com/js/plusone.js';
-// 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-// })();
-
+})(jQuery);
 
