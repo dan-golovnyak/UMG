@@ -604,6 +604,12 @@ ul.menu {
 
 @media screen and (max-width:960px) {
 
+    /* reset typography */
+    html, body, div, span, applet, object, iframe, img, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+        font-size: medium;
+        line-height: 1.3;
+    }
+
 	.page-width {
 		width: 100%;
 	}
@@ -625,6 +631,22 @@ ul.menu {
         margin: 0;
     }
 
+    /*photo page*/
+    .mg-col-1 > .field-items > .field-item, .mg-col-1 .node,
+    .mg-col-2 > .field-items > .field-item, .mg-col-2 .node,
+    .mg-col-3 > .field-items > .field-item, .mg-col-3 .node,
+    .mg-col-4 > .field-items > .field-item, .mg-col-4 .node,
+    .mg-col-5 > .field-items > .field-item, .mg-col-5 .node,
+    .mg-col-5 > .field-items > .field-item, .mg-col-5 .node,
+    .mg-col-6 > .field-items > .field-item, .mg-col-6 .node,
+    .mg-col-6 > .field-items > .field-item, .mg-col-6 .node,
+    .mg-col-7 > .field-items > .field-item, .mg-col-7 .node,
+    .mg-col-7 > .field-items > .field-item, .mg-col-7 .node,
+    .mg-col-8 > .field-items > .field-item, .mg-col-8 .node {
+        width:100% !important;
+    }
+
+    /* menus */
     ul.menu {
         list-style: none;
     }
@@ -633,16 +655,19 @@ ul.menu {
         color: #111;
         background-color: #E1E1E1;
         background-image: url('images/btn-gradient.gif');
-        background-position: 0 0;
+        background-position: 0 5px;
         border: 1px solid #555;
         display: block;
         padding: 3px 6px;
     }
 
     ul.menu li.leaf a.active {
-        background-position: 0 -30px;
+        background-image: none;
+        background-color: #87ceea;
+        }
     }
 
+    /* social login */
     #preheader .col-second {
         color: white;
         width: 100%;
