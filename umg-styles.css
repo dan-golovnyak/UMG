@@ -259,6 +259,11 @@ span.fb_edge_comment_widget.fb_iframe_widget {
 	margin-top: 0;
 }
 
+.stack .box {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 /* Pagers */
 div.item-list ul.pager {
 	text-align: left;
