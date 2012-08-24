@@ -1409,6 +1409,8 @@ h1, h2, h3, h4, h5 {
   font-weight:bold;
 }
 /* CHANNEL TITLES */
+.middle > h2,
+.view-content > h3,
 h1#page-title {
   text-transform:uppercase;
   font-family: blackout-midnight, "Helvetica Neue", Helvetica, Arial, sans-serif;
