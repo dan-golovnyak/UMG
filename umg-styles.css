@@ -631,6 +631,10 @@ ul.menu {
 		width: 100%;
 	}
 
+	.region-header .page-element {
+    	width: 100%;
+    }
+
 	#sidebar-a,
     #ucid_legal,
     #loader,
