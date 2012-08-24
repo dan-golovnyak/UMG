@@ -1070,7 +1070,9 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    font-family: Georgia, "Times New Roman", Times, serif;
  }
  /* CHANNEL TITLES */
- h2.s_channel_title {
+ .middle > h2,
+ h1.title,
+ .view-content > h3 {
    font-size:21px;
    font-family:Arial, Helvetica, sans-serif;
    font-weight:bold;
@@ -1085,7 +1087,7 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    -o-border-radius: 8px 8px 0 0;
    border-radius: 8px 8px 0 0;
  }
- h2.s_channel_title a {
+ .middle > h2 a {
    color:#fff;
  }
  .s_channel h3 {
@@ -1124,7 +1126,7 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    height:10px;
    height: 80px;
  }
- .primary,
+ #main,
  .pg-lyrics #content {
    z-index:1;
    width: inherit;
@@ -1139,17 +1141,17 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    z-index:1;
  }
  /* F O O T E R */
- #copyright{
+ #copyright {
    width: 100%;
    padding: 17px 0 0 0;
    background:#000;
  }
- #copyright.span-24 {
+ #copyright .span-24 {
    width:900px;
    margin:0 auto;
    float:none;
  }
- #copyrightul.menu {
+ #copyright ul.menu {
    padding-top:5px;
    float:left;
  }
@@ -1294,7 +1296,7 @@ div.realtidbits-comments-title{color: #FF0072!important;}
  .menu a:hover {
    color:#fff !important;
  }
- #copyright.menu li {
+ #copyright .menu li {
    list-style-type: none;
    text-decoration:none;
    text-transform: uppercase;
@@ -1305,10 +1307,10 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    margin:0 30px 0 0;
    padding-right:0px;
  }
- #copyright.menu li a {
+ #copyright .menu li a {
    color:#ff2772;
  }
- #copyright.menu li a:hover {
+ #copyright .menu li a:hover {
    border-bottom: 4px solid #fff;
  }
  body.front li.nav-home a, body.pg-news li.nav-news a, body.pg-bio li.nav-bio a, body.pg-events li.nav-events a, body.pg-media li.nav-media a, body.pg-discography li.nav-discography a, body.pg-photos li.nav-photos a, body.pg-links li.nav-links a, body.pg-forum ul li.nav-forum a {
@@ -1518,7 +1520,7 @@ div.realtidbits-comments-title{color: #FF0072!important;}
    margin:-50px 0 0 -40px;
    z-index:-1!important;
  }
- .secondary h1 a {
+ #site-name a {
    width:360px;
    height:251px;
    background:url(images/logo.png) no-repeat;
