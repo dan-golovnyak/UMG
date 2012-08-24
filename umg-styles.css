@@ -210,7 +210,9 @@ img {
 	min-height: 1% !important;
 }
 
-#page-title,
+.page-news #page-title,
+.page-music #page-title,
+.page-video #page-title,
 .pager li.pager-current,
 #breadcrumb,
 .node-type-music .node .meta,
