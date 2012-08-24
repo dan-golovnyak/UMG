@@ -1412,7 +1412,7 @@ h1, h2, h3, h4, h5 {
   font-weight:bold;
 }
 /* CHANNEL TITLES */
-h2.s_channel_title {
+h1#page-title {
   text-transform:uppercase;
   font-family: blackout-midnight, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 0px;
@@ -1420,15 +1420,15 @@ h2.s_channel_title {
   font-size:27px;
   color:#f09;
 }
-#main h2.s_channel_title{color:#fff; margin:-65px 0 22px 0; }
-#main h2.s_channel_title a{color:#fff!important; }
-.front #main h2.s_channel_title {margin:-55px 0 22px 10px;}
+#main h1#page-title{color:#fff; margin:-65px 0 22px 0; }
+#main h1#page-title a{color:#fff!important; }
+.front #main h1#page-title {margin:-55px 0 22px 10px;}
 
 h3.s_title, h3.s_title a {font-family:league-gothic, "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform:uppercase; font-size:30px; margin:0; color:#000!important;}
 h3.s_title {border-bottom:1px solid #f09; padding:0; }
 #main .s_byline {position:relative; top:5px;}
 
-h2.s_channel_title a {
+h1#page-title a {
   color:#fff;
   text-decoration: none;
 }
