@@ -2082,12 +2082,19 @@ h4.bv_channel_title {
      }
 
      #site-name a {
-       display: block;
-       text-indent: -99999px;
-       height: 200px;
-       width:100%;
-       background-position: center;
-       background: url(images/logo.png) no-repeat;
+     	display: block;
+     	color: white;
+     	text-shadow: 5px 1px 2em #fff;
+     	padding-top: 85px;
+     	text-align: center;
+     	width: 100%;
+     	background-position: center 20px;
+     	background-image: url(images/logo.png);
+     	background-repeat: no-repeat;
+     }
+
+     #site-name span {
+     	font-size: 3em;
      }
 
      #content {
