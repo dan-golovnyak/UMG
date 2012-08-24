@@ -1481,12 +1481,14 @@ h2.s_channel_title a {
 #banner {
   float:none;
   clear:both;
-  height:475px;
+  height:325px;
   background: url('images/bg_internal.jpg') no-repeat;
 }
 .front #banner {
-  background: url('images/bg_small.jpg') no-repeat;
+	height: 475px;
+  	background: url('images/bg_small.jpg') no-repeat;
 }
+
 #banner h1 a {
   display: block;
   text-decoration: none;
