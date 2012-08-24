@@ -176,6 +176,10 @@ a img {
 	outline: 0;
 }
 
+.item-list ul {
+	padding-left: 0;
+}
+
 
 @font-face {
 font-family:"league-gothic";
@@ -263,8 +267,8 @@ span.fb_edge_comment_widget.fb_iframe_widget {
 }
 
 .stack .box {
-	padding-left: 0;
-	padding-right: 0;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .sidebar.right {
@@ -274,6 +278,7 @@ span.fb_edge_comment_widget.fb_iframe_widget {
 #content-inner {
 	padding-top: 0;
 }
+
 
 /* Pagers */
 div.item-list ul.pager {
