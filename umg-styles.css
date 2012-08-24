@@ -663,7 +663,7 @@ textarea, input,
 .echo-submit-text {
   color: #000 !important;
 }
-.front .primary .s_items {
+.front #main .s_items {
   background: none;
 }
 #s_river {
@@ -1196,7 +1196,7 @@ a.preview_description {
   margin: 5px 10px 5px 0;
 }
 /* AVATAR */
-.primary .echo-item-avatar, #bv-echo-river .echo-item-avatar {
+#main .echo-item-avatar, #bv-echo-river .echo-item-avatar {
   border: 2px solid #000;
 }
 /* BLOCKQUOTE MARGINS */
@@ -1407,13 +1407,13 @@ h2.s_channel_title {
   font-size:27px;
   color:#f09;
 }
-.primary h2.s_channel_title{color:#fff; margin:-65px 0 22px 0; }
-.primary h2.s_channel_title a{color:#fff!important; }
-.front .primary h2.s_channel_title {margin:-55px 0 22px 10px;}
+#main h2.s_channel_title{color:#fff; margin:-65px 0 22px 0; }
+#main h2.s_channel_title a{color:#fff!important; }
+.front #main h2.s_channel_title {margin:-55px 0 22px 10px;}
 
 h3.s_title, h3.s_title a {font-family:league-gothic, "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform:uppercase; font-size:30px; margin:0; color:#000!important;}
 h3.s_title {border-bottom:1px solid #f09; padding:0; }
-.primary .s_byline {position:relative; top:5px;}
+#main .s_byline {position:relative; top:5px;}
 
 h2.s_channel_title a {
   color:#fff;
@@ -1429,13 +1429,13 @@ h2.s_channel_title a {
   display: block;
 }
 /* = = = = CMS STRUCTURE & CONTAINERS = = = = = */ 
-.primary {
+#main {
   width:600px;
   background:white;
   margin:0;
   padding:10px;
 }
-.front .primary { background:none; padding-left:0;}
+.front #main { background:none; padding-left:0;}
 .secondary {
   margin:5px 0 0 15px;
 }
@@ -1749,14 +1749,14 @@ background:#d1d1d1;
   text-transform:uppercase;
 }
 
-.primary .s_venue {
+#main .s_venue {
   margin:-5px 0 -5px 35px;
 }
-.primary .s_venue a {
+#main .s_venue a {
   font-size:27px;
   color:#000;
 }
-.primary .s_venue a:hover {
+#main .s_venue a:hover {
   color:#f20070;
 }
 .secondary .s_venue {
@@ -1786,16 +1786,16 @@ a.buyticketurl {
   display: block;
   float: left;
 }
-.primary .s_location {
+#main .s_location {
   color:#000;
   font-weight:700;
   margin: 3px 0 7px 0;
 }
-.pg-events.summary .primary #s_events .s_icon_comments {
+.pg-events.summary #main #s_events .s_icon_comments {
   display: block;
   float: left;
 }
-.pg-events.detail .primary #s_events .s_icon_comments {
+.pg-events.detail #main #s_events .s_icon_comments {
   float: right;
 }
 .pg-events.summary a.buyticketurl {
