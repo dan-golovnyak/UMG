@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+// error_reporting(0);
 
 //First we pull in the local css file
 $css_file = file_get_contents('umg-styles.css');
@@ -16,9 +16,9 @@ $original_strings = array(
 	"/h1\#logo/",
 	"/\.pg-home/",
 	"/\#hd/",
-	"/li.selected a",
-	"/li.selected",
-	"/\.primary "
+	"/li.selected a/",
+	"/li.selected/",
+	"/\.primary /"
 
 );
 
@@ -40,6 +40,6 @@ $replacement_strings = array(
 
 );
 
-$new_css = preg_replace($original_strings, $replacement_strings, &$css_file);
+$new_css = preg_replace($original_strings, $replacement_strings, $css_file);
 
 print $new_css;
