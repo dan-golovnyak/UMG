@@ -15,7 +15,11 @@ $original_strings = array(
 	"/\.bg_nav/",
 	"/h1\#logo/",
 	"/\.pg-home/",
-	"/\#hd/"
+	"/\#hd/",
+	"/li.selected a",
+	"/li.selected",
+	"/\.primary "
+
 );
 
 //We want to use these strings to replace the stings above
@@ -29,7 +33,11 @@ $replacement_strings = array(
 	"#header",
 	"#site-name",
 	".front",
-	"#banner"
+	"#banner",
+	"li a.active",
+	"li a.active",
+	"#main "
+
 );
 
 $new_css = preg_replace($original_strings, $replacement_strings, &$css_file);
