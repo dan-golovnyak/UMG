@@ -6,22 +6,22 @@ $css_file = file_get_contents('umg-styles.css');
 
 //we want to search for these strings and replace them with the strings bellow
 $original_strings = array(
-	"/\.container/"
-	"/\.span-8/"
-	"/\.navigation/"
-	"/\#bd/"
-	"/\#top-nav/"
-	"/\#ft /"
-	"/\#ft,/"
-	"/\.bg_nav/"
-	"/h1\#logo/"
-	"/\.pg-home/"
-	"/\#hd/"
-	"/li\.selected a/"
-	"/li\.selected/"
-	"/\.primary /"
-	"/\.primary,/"
-	"/h2\.s_channel_title/"
+	"/\.container/",
+	"/\.span-8/",
+	"/\.navigation/",
+	"/\#bd/",
+	"/\#top-nav/",
+	"/\#ft /",
+	"/\#ft,/",
+	"/\.bg_nav/",
+	"/h1\#logo/",
+	"/\.pg-home/",
+	"/\#hd/",
+	"/li\.selected a/",
+	"/li\.selected/",
+	"/\.primary /",
+	"/\.primary,/",
+	"/h2\.s_channel_title/",
 	"/\.secondary h1 a/"
 );
 
