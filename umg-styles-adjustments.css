@@ -1,0 +1,131 @@
+/* Sites list*/
+
+#umg_themes {
+	position: fixed;
+	top: 0px;
+	right: 10px;
+	z-index: 9999;
+}
+
+#utNav {
+	display: none;
+	height: 300px;
+	width: 300px;
+	overflow-y: auto;
+}
+
+#umg_themes a.dropdown {
+	float: right;
+}
+
+#utNav, #utNav li {
+	list-style: none;
+}
+
+#utNav li a {
+	color: white;
+	background-color: #E58F00;
+	display: block;
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 27px!important;
+	text-indent: 10px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#utNav li a:hover, #utNav li a:focus {
+	background:#CA5300;
+}
+
+/* Adjustments for lmfao */
+
+.page-width{
+  top: 0px;
+}
+
+#header.wrapper {
+  height: auto;
+}
+
+#banner {
+  height: 405px;
+}
+
+h1.title, .front .tabs, .echo-stream-header {
+  display: none!important;
+}
+
+#site-name {
+	margin-left: -343px;
+	top: 0px;
+}
+
+.front #banner {
+	height: 555px;
+}
+
+#block-block-21 {
+	margin-top: 10px;
+}
+
+.front #main .middle > h2, .view-content > h3, h1#page-title {
+	margin: 0px;
+}
+
+/* Adjustments for drdre */
+
+.drdrecom #banner {
+  display: none;
+}
+
+/* Adjustments for fergie */
+
+.fergiecom #banner {
+  display: none;
+}
+
+.fergiecom #site-name {
+  margin-left: 125px;
+}
+
+.fergiecom .selector {
+  width: auto;
+}
+
+.fergiecom #block-block-31 {
+  position: relative;
+}
+
+/* Adjustments for blink182 */
+
+.blinkcom #banner {
+  height: 400px;
+}
+
+/* Adjustments for 50cent */
+
+.centcom #banner {
+  display: none;
+}
+
+.centcom #header.wrapper {
+	height: 356px;
+}
+
+.centcom #content {
+	padding-top: 0px;
+}
+
+
+/* Eminem */
+.eminemcom #banner {
+	display: none;
+}
+
+.eminemcom #site-name {
+	margin-left: -465px;
+	top: 0px;
+}
+
